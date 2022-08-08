@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: fugaz one, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(107, 154, 199, 0.726) 40%, rgba(255, 255, 255, 0.918) 60%);
+    min-height:  100px;
+    padding-left: 0px;
+    
+}
+
+
+header > div.nome{
+    font-size: 65px;
+    color: red;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-size-adjust: auto;
+    -webkit-text-stroke-color: #fff;
+    padding-left: 100px;
+    letter-spacing: 0px;
+
+    
+    
+}
+
+header > div.atividade{
+    font-size: 30px;
+    color: rgb(98, 0, 255);
+    padding-left: 160px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-size-adjust: auto;
+    -webkit-text-stroke-color: #fff;
+    line-height: 1em;
+}
+
+header > div.slogan {
+    font-family: catamaran, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight:500;
+    font-style: italic;
+}
+
+header > nav {
+    width: 100%;
+    background-color: rgb(98, 0, 255);
+    text-align: center;
+}
+
+nav > a {
+    padding-left: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: catamaran, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    border-radius: 8px;
+
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.719);
+    color: rgb(98, 0, 255);
+}
+
+main {
+    font-family: catamaran, sans-serif;
+    font-size: 25px;
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 30px;
+}
+
+footer {
+    font-family: fugaz one, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(107, 154, 199, 0.726) 40%, rgba(255, 255, 255, 0.918) 60%);
+    min-height:  100px;
+}
