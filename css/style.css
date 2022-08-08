@@ -9,47 +9,18 @@
 
 header {
     font-family: fugaz one, sans-serif;
-    background-image: linear-gradient(to bottom, rgba(107, 154, 199, 0.726) 40%, rgba(255, 255, 255, 0.918) 60%);
+    background-color: #1a1a27;
     min-height:  100px;
     padding-left: 0px;
-    
 }
+header > img {
+    width: 16%;
 
-
-header > div.nome{
-    font-size: 65px;
-    color: red;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-size-adjust: auto;
-    -webkit-text-stroke-color: #fff;
-    padding-left: 100px;
-    letter-spacing: 0px;
-
-    
-    
-}
-
-header > div.atividade{
-    font-size: 30px;
-    color: rgb(98, 0, 255);
-    padding-left: 160px;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-size-adjust: auto;
-    -webkit-text-stroke-color: #fff;
-    line-height: 1em;
-}
-
-header > div.slogan {
-    font-family: catamaran, sans-serif;
-    text-align: center;
-    padding-bottom: 20px;
-    font-weight:500;
-    font-style: italic;
 }
 
 nav {
     width: 100%;
-    background-color: rgb(98, 0, 255);
+    background-color:#bbbcbc;
     text-align: center;
 }
 
@@ -60,14 +31,14 @@ nav > a {
     font-family: catamaran, sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: white;
+    color: #1a1a27;
     border-radius: 8px;
     
 
 }
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.719);
-    color: rgb(98, 0, 255);
+    color: red;
 }
 
 main {
@@ -90,13 +61,13 @@ main > img {
 footer{
     bottom: 0px;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(107, 154, 199, 0.726) 40%, rgba(255, 255, 255, 0.918) 60%);
-    font-family: fugaz one, sans-serif;
+    background-color: #1a1a27;
+    font-family: catamaran, sans-serif;
 }
 .main-content{
     display: flex;
     font-weight: 500;
-    color: var(--cor01);
+    color: #bbbcbc;
 }
 .main-content .box{
     flex-basis: 50%;
@@ -104,7 +75,7 @@ footer{
 }
 .box h2{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
 }
 .box .content{
@@ -112,29 +83,32 @@ footer{
 }
 
 .box .content .social img{
-    width: 6%;
-    padding-right: 35px;
+    width: 10%;
+    padding-right: 20px;
     padding-bottom: 30px;
 }
 
-.left .content p{
-    text-align:justify;
+.left img{
+    width: 40%;
+    margin: auto;
+    padding-left: 85px;
 }
 
 .bottom .center{
     padding: 5px;
     font-size: 15px;
-    background: var(--cor01);
+    background:#bbbcbc;
     text-align: center;
 }
 .bottom .center span{
-    color: var(--cor05);
-    font-weight: bold;
+    color:#1a1a27;
+    font-weight:400;
     
 }
 .bottom .center a{
-    color:blue
+    color: red;
     font-style: italic;
+    font-weight: 500;
     text-decoration: none;
 }
 .bottom .center a:hover{
