@@ -47,7 +47,7 @@ header > div.slogan {
     font-style: italic;
 }
 
-header > nav {
+nav {
     width: 100%;
     background-color: rgb(98, 0, 255);
     text-align: center;
@@ -62,6 +62,7 @@ nav > a {
     font-style: italic;
     color: white;
     border-radius: 8px;
+    
 
 }
 nav a:hover {
@@ -76,6 +77,10 @@ main {
     text-align: justify;
     margin: auto;
     margin-top: 30px;
+}
+
+main > img {
+    width: 100%;
 }
 
 footer {
