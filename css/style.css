@@ -9,10 +9,10 @@
 
 header {
     font-family: fugaz one, sans-serif;
+    font-size: 19px;
     background-color: #1a1a27;
-    margin: auto;
     display:inline-flexbox;
-
+    
 }
 
 nav {
@@ -43,7 +43,7 @@ main {
     padding-left: 10px;
     padding-right: 10px;
     font-family: catamaran, sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     max-width: 800px;
     text-align: justify;
     margin: auto;
