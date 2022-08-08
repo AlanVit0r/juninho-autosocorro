@@ -96,7 +96,7 @@ footer {
 footer{
     bottom: 0px;
     width: 100%;
-    background-image: linear-gradient(var(--cor05), var(--cor03));
+    background-image: linear-gradient(to bottom, rgba(107, 154, 199, 0.726) 40%, rgba(255, 255, 255, 0.918) 60%);
 }
 .main-content{
     display: flex;
@@ -138,13 +138,13 @@ footer{
     
 }
 .bottom .center a{
-    color: #ffffff;
+    color:blue
     font-style: italic;
     text-decoration: none;
 }
 .bottom .center a:hover{
     text-decoration: underline;
-    color:var(--cor05)
+    color: red
 }
 @media screen and (max-width: 900px){
     footer{
