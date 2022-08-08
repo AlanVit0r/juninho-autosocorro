@@ -10,11 +10,8 @@
 header {
     font-family: fugaz one, sans-serif;
     background-color: #1a1a27;
-    min-height:  100px;
-    padding-left: 0px;
-}
-header > img {
-    width: 16%;
+    margin: auto;
+    display:inline-flexbox;
 
 }
 
