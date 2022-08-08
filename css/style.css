@@ -97,6 +97,7 @@ footer{
     bottom: 0px;
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(107, 154, 199, 0.726) 40%, rgba(255, 255, 255, 0.918) 60%);
+    font-family: fugaz one, sans-serif;
 }
 .main-content{
     display: flex;
